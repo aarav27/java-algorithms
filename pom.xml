@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.sharma.aarav.java.projects</groupId>
-    <artifactId>algorithms</artifactId>
+    <artifactId>java-algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>algorithms</name>
+    <name>java-algorithms</name>
 
     <properties>
-        <service.name>algorithms</service.name>
+        <service.name>java-algorithms</service.name>
         <!-- Java Version -->
         <java.version>1.8</java.version>
         <!-- Maven version -->
