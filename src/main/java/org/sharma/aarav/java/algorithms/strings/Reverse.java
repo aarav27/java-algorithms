@@ -1,5 +1,7 @@
 package org.sharma.aarav.java.algorithms.strings;
 
+//1. Reverse a String
+
 public class Reverse {
 
     public static String reverse(String str) {
