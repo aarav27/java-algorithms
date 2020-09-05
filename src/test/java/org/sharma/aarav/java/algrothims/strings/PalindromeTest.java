@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Palindrome;
-import org.sharma.aarav.java.algorithms.strings.Reverse;
 
 public class PalindromeTest {
 
