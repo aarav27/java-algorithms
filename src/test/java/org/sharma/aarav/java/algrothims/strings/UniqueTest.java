@@ -41,6 +41,4 @@ public class UniqueTest {
         Assert.assertEquals(false, unique.isAllUnique("My name is Aarav Sharma"));
     }
 
-
-
 }

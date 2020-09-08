@@ -1,7 +1,5 @@
 package org.sharma.aarav.java.algorithms.strings;
 
-//5. Write a program to decide if two strings are anagrams or not.
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +7,7 @@ import java.util.Map;
 
 public class Anagram {
 
-    //Find if two strings are anagrams or not.
+    //5. Find if two strings are anagrams or not.
     public boolean isAnagram(String s1, String s2) {
 
         if(s1==null || s2==null) return false;
@@ -27,7 +25,7 @@ public class Anagram {
         return true;
     }
 
-    //Given a String of array return group anagrams.
+    //10. Given a String of array return group anagrams.
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<List<String>>();
 
