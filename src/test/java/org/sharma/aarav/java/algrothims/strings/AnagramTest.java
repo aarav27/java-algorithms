@@ -2,16 +2,12 @@ package org.sharma.aarav.java.algrothims.strings;
 
 //5. Junit to test if two strings are anagrams or not.
 
-import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Anagram;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 public class AnagramTest {
 
