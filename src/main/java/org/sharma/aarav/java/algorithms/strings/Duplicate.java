@@ -1,6 +1,5 @@
 package org.sharma.aarav.java.algorithms.strings;
 
-
 //7. Remove the duplicate characters in a string
 
 public class Duplicate {

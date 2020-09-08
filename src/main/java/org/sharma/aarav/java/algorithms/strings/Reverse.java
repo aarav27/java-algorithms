@@ -1,9 +1,8 @@
 package org.sharma.aarav.java.algorithms.strings;
 
-//1. Reverse a String
-
 public class Reverse {
 
+    //1. Reverse a String
     public String reverse(String str) {
         if(str==null || str.length()<2) return str;
         char[] c = str.toCharArray();
@@ -16,7 +15,7 @@ public class Reverse {
         return String.valueOf(c);
     }
 
-    // Method that will reverse the words in a sentence.
+    // 11. Reverse the words in a sentence.
     public String reverseWordsInSentence(String input) {
         if(input==null || input.split(" ").length <2) return input;
 

@@ -1,6 +1,7 @@
 package org.sharma.aarav.java.algrothims.strings;
 
 //5. Junit to test if two strings are anagrams or not.
+//10. Junit to test group anagrams.
 
 import org.junit.Assert;
 import org.junit.Before;
