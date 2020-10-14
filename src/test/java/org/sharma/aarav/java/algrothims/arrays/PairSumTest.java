@@ -64,4 +64,52 @@ public class PairSumTest {
         Assert.assertEquals(Arrays.toString(new int[]{0, 0}), Arrays.toString(pairSum.findIndexes(new int[] {12, -9, 15, 3, -6},16)));
     }
 
+    @Test
+    public void findIndexesAfterSortingTestNull() { Assert.assertNull(pairSum.findIndexesAfterSorting(null, 2)); }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithOneElement() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 0}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {10},2)));
+    }
+
+    @Test
+    public void findIndexesTesttAfterSortingWithTwoElementAndMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 1}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {3, 2},5)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithTwoElementAndNotMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 0}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {4, 4},5)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithThreeElementAndMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 2}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {10, 7, -1},9)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithThreeElementAndNotMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 0}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {10, 7, -1},10)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithFourElementAndMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 2}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {4, 0, -3, 3},0)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithFourElementAndNotMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 0}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {4, 0, -3, 3},2)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithFiveElementAndMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 1}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {12, -9, 15, 3, -6},-15)));
+    }
+
+    @Test
+    public void findIndexesAfterSortingTesttWithFiveElementAndNotMatch() {
+        Assert.assertEquals(Arrays.toString(new int[]{0, 0}), Arrays.toString(pairSum.findIndexesAfterSorting(new int[] {12, -9, 15, 3, -6},16)));
+    }
+
 }
