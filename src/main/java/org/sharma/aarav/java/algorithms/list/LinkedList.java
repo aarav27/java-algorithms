@@ -11,9 +11,16 @@ public class LinkedList<T> {
         }
     }
 
-    // 1. Append Node to Tail :: Given head node and data for append node as input
-    public void append(Node head, int data) {
+    // 1. Append Node to Tail :: Given head node and data to append as input
+    public void append(Node head, T data) {
         Node end = new Node(data);
+        Node current = head;
+        while (current.next!=null) current = current.next;
+        current.next = end;
+    }
+
+    //2. Append Node to Tail Given Head node and a node to append as input
+    public void append(Node head, Node end) {
         Node current = head;
         while (current.next!=null) current = current.next;
         current.next = end;
