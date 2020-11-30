@@ -43,4 +43,13 @@ public class LinkedList<T> {
         }
         return head;
     }
+
+    //4. Delete a node in the middle of a single linked list, given only access to that node.
+    public boolean delete(Node node) {
+        if(node==null && node.next==null) return false;
+        node.data = node.next.data;
+        node.next = node.next.next;
+        return true;
+    }
+
 }
