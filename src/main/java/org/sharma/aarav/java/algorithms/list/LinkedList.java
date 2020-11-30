@@ -26,4 +26,21 @@ public class LinkedList<T> {
         current.next = end;
     }
 
+    //3. Delete first node with matching value and return the list(head node)
+    // Given head of the list and value to be deleted are given.
+    public Node delete(Node head, T value) {
+
+        if(head==null) return null;
+        if(head.data == value) return head.next;
+
+        Node current = head;
+        while(current.next!=null) {
+            if(current.next.data == value) {
+                current.next = current.next.next;
+                return head;
+            }
+            current = current.next;
+        }
+        return head;
+    }
 }

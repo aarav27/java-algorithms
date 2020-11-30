@@ -86,4 +86,66 @@ public class LinkedListTest {
         Assert.assertNull(head.next.next.next.next);
     }
 
+    @Test
+    public void deleteFirstNodeWithMatchingValueFromLinkedListTestHavingFiveNodes() {
+        LinkedList.Node node1 = new LinkedList.Node(11);
+        LinkedList.Node node2 = new LinkedList.Node(21);
+        LinkedList.Node node3 = new LinkedList.Node(31);
+        LinkedList.Node node4 = new LinkedList.Node(41);
+        linkedList.append(head, node1);
+        linkedList.append(head, node2);
+        linkedList.append(head, node3);
+        linkedList.append(head, node4);
+        linkedList.delete(head, 31);
+        Assert.assertEquals(1, head.data);
+        Assert.assertEquals(11, head.next.data);
+        Assert.assertEquals(21, head.next.next.data);
+        Assert.assertEquals(41, head.next.next.next.data);
+        Assert.assertNull(head.next.next.next.next);
+    }
+
+    @Test
+    public void deleteFirstNodeWithMatchingValueFromLinkedListTestHavingSixNodes() {
+        LinkedList.Node node1 = new LinkedList.Node(11);
+        LinkedList.Node node2 = new LinkedList.Node(21);
+        LinkedList.Node node3 = new LinkedList.Node(31);
+        LinkedList.Node node4 = new LinkedList.Node(41);
+        LinkedList.Node node5 = new LinkedList.Node(51);
+        linkedList.append(head, node1);
+        linkedList.append(head, node2);
+        linkedList.append(head, node3);
+        linkedList.append(head, node4);
+        linkedList.append(head, node5);
+        linkedList.delete(head, 31);
+        Assert.assertEquals(1, head.data);
+        Assert.assertEquals(11, head.next.data);
+        Assert.assertEquals(21, head.next.next.data);
+        Assert.assertEquals(41, head.next.next.next.data);
+        Assert.assertEquals(51, head.next.next.next.next.data);
+        Assert.assertNull(head.next.next.next.next.next);
+    }
+
+    @Test
+    public void deleteFirstNodeWithMatchingValueFromLinkedListTestHavingSevenNodes() {
+        LinkedList.Node node1 = new LinkedList.Node(11);
+        LinkedList.Node node2 = new LinkedList.Node(21);
+        LinkedList.Node node3 = new LinkedList.Node(31);
+        LinkedList.Node node4 = new LinkedList.Node(41);
+        LinkedList.Node node5 = new LinkedList.Node(51);
+        LinkedList.Node node6 = new LinkedList.Node(61);
+        linkedList.append(head, node1);
+        linkedList.append(head, node2);
+        linkedList.append(head, node3);
+        linkedList.append(head, node4);
+        linkedList.append(head, node5);
+        linkedList.append(head, node6);
+        linkedList.delete(head, 51);
+        Assert.assertEquals(1, head.data);
+        Assert.assertEquals(11, head.next.data);
+        Assert.assertEquals(21, head.next.next.data);
+        Assert.assertEquals(31, head.next.next.next.data);
+        Assert.assertEquals(41, head.next.next.next.next.data);
+        Assert.assertEquals(61, head.next.next.next.next.next.data);
+        Assert.assertNull(head.next.next.next.next.next.next);
+    }
 }
