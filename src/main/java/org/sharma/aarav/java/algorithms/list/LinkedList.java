@@ -1,5 +1,8 @@
 package org.sharma.aarav.java.algorithms.list;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LinkedList<T> {
 
     public static class Node<T> {
@@ -50,6 +53,22 @@ public class LinkedList<T> {
         node.data = node.next.data;
         node.next = node.next.next;
         return true;
+    }
+
+    //5. Remove duplicates from an unsorted linked list, given head of the list.
+    public void removeDuplicates(Node head) {
+        Map<T, Boolean> map = new HashMap<T, Boolean>();
+        Node previous = null;
+        Node current = head;
+        while(current != null) {
+            if(!map.containsKey(current.data)) {
+                map.put((T) current.data, true);
+                previous = current;
+            } else {
+                previous.next = current.next;
+            }
+            current = current.next;
+        }
     }
 
 }
