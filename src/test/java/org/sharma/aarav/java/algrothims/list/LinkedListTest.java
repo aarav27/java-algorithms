@@ -10,17 +10,18 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.list.LinkedList;
+import org.sharma.aarav.java.algorithms.list.Node;
 
 public class LinkedListTest {
 
     private LinkedList linkedList;
 
-    private LinkedList.Node head;
+    private Node head;
 
     @Before
     public void setUp() throws Exception {
         linkedList = new LinkedList();
-        head = new LinkedList.Node(1);
+        head = new Node(1);
     }
 
     @Test
@@ -55,7 +56,7 @@ public class LinkedListTest {
 
     @Test
     public void appendOneNodeInTailOfLinkedListTestGivenHeadNode() {
-        LinkedList.Node node = new LinkedList.Node(11);
+        Node node = new Node(11);
         linkedList.append(head, node);
         Assert.assertEquals(1, head.data);
         Assert.assertEquals(11, head.next.data);
@@ -64,8 +65,8 @@ public class LinkedListTest {
 
     @Test
     public void appendTwoNodeInTailOfLinkedListTestGivenHeadNode() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         Assert.assertEquals(1, head.data);
@@ -76,9 +77,9 @@ public class LinkedListTest {
 
     @Test
     public void appendThreeNodeInTailOfLinkedListTestGivenHeadNode() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -91,10 +92,10 @@ public class LinkedListTest {
 
     @Test
     public void deleteFirstNodeWithMatchingValueFromLinkedListTestHavingFourNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -109,11 +110,11 @@ public class LinkedListTest {
 
     @Test
     public void deleteFirstNodeWithMatchingValueFromLinkedListTestHavingFiveNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -130,12 +131,12 @@ public class LinkedListTest {
 
     @Test
     public void deleteFirstNodeWithMatchingValueFromLinkedListTestHavingSixNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
-        LinkedList.Node node6 = new LinkedList.Node(61);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
+        Node node6 = new Node(61);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -154,13 +155,13 @@ public class LinkedListTest {
 
     @Test
     public void deleteNodeFromMiddleFromLinkedListTestHavingSevenNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
-        LinkedList.Node node6 = new LinkedList.Node(61);
-        LinkedList.Node node7 = new LinkedList.Node(71);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
+        Node node6 = new Node(61);
+        Node node7 = new Node(71);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -181,14 +182,14 @@ public class LinkedListTest {
 
     @Test
     public void deleteNodeFromMiddleFromLinkedListTestHavingEightNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
-        LinkedList.Node node6 = new LinkedList.Node(61);
-        LinkedList.Node node7 = new LinkedList.Node(71);
-        LinkedList.Node node8 = new LinkedList.Node(81);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
+        Node node6 = new Node(61);
+        Node node7 = new Node(71);
+        Node node8 = new Node(81);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -211,15 +212,15 @@ public class LinkedListTest {
 
     @Test
     public void deleteNodeFromMiddleFromLinkedListTestHavingNineNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
-        LinkedList.Node node6 = new LinkedList.Node(61);
-        LinkedList.Node node7 = new LinkedList.Node(71);
-        LinkedList.Node node8 = new LinkedList.Node(81);
-        LinkedList.Node node9 = new LinkedList.Node(91);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
+        Node node6 = new Node(61);
+        Node node7 = new Node(71);
+        Node node8 = new Node(81);
+        Node node9 = new Node(91);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -244,16 +245,16 @@ public class LinkedListTest {
 
     @Test
     public void removeDuplicatesFromLinkedListTestHavingTenNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(11);
-        LinkedList.Node node4 = new LinkedList.Node(31);
-        LinkedList.Node node5 = new LinkedList.Node(41);
-        LinkedList.Node node6 = new LinkedList.Node(31);
-        LinkedList.Node node7 = new LinkedList.Node(51);
-        LinkedList.Node node8 = new LinkedList.Node(61);
-        LinkedList.Node node9 = new LinkedList.Node(71);
-        LinkedList.Node node10 = new LinkedList.Node(71);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(11);
+        Node node4 = new Node(31);
+        Node node5 = new Node(41);
+        Node node6 = new Node(31);
+        Node node7 = new Node(51);
+        Node node8 = new Node(61);
+        Node node9 = new Node(71);
+        Node node10 = new Node(71);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -278,17 +279,17 @@ public class LinkedListTest {
 
     @Test
     public void removeDuplicatesFromLinkedListTestHavingElevenNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
-        LinkedList.Node node6 = new LinkedList.Node(61);
-        LinkedList.Node node7 = new LinkedList.Node(41);
-        LinkedList.Node node8 = new LinkedList.Node(61);
-        LinkedList.Node node9 = new LinkedList.Node(71);
-        LinkedList.Node node10 = new LinkedList.Node(81);
-        LinkedList.Node node11 = new LinkedList.Node(71);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
+        Node node6 = new Node(61);
+        Node node7 = new Node(41);
+        Node node8 = new Node(61);
+        Node node9 = new Node(71);
+        Node node10 = new Node(81);
+        Node node11 = new Node(71);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
@@ -315,18 +316,18 @@ public class LinkedListTest {
 
     @Test
     public void removeDuplicatesFromLinkedListTestHavingTwelveNodes() {
-        LinkedList.Node node1 = new LinkedList.Node(11);
-        LinkedList.Node node2 = new LinkedList.Node(21);
-        LinkedList.Node node3 = new LinkedList.Node(31);
-        LinkedList.Node node4 = new LinkedList.Node(41);
-        LinkedList.Node node5 = new LinkedList.Node(51);
-        LinkedList.Node node6 = new LinkedList.Node(61);
-        LinkedList.Node node7 = new LinkedList.Node(1);
-        LinkedList.Node node8 = new LinkedList.Node(11);
-        LinkedList.Node node9 = new LinkedList.Node(21);
-        LinkedList.Node node10 = new LinkedList.Node(31);
-        LinkedList.Node node11 = new LinkedList.Node(41);
-        LinkedList.Node node12 = new LinkedList.Node(51);
+        Node node1 = new Node(11);
+        Node node2 = new Node(21);
+        Node node3 = new Node(31);
+        Node node4 = new Node(41);
+        Node node5 = new Node(51);
+        Node node6 = new Node(61);
+        Node node7 = new Node(1);
+        Node node8 = new Node(11);
+        Node node9 = new Node(21);
+        Node node10 = new Node(31);
+        Node node11 = new Node(41);
+        Node node12 = new Node(51);
         linkedList.append(head, node1);
         linkedList.append(head, node2);
         linkedList.append(head, node3);
