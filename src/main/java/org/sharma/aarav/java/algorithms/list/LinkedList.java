@@ -102,4 +102,27 @@ public class LinkedList<T> {
         return length;
     }
 
+    // 7. Write an algorithm to find the node at which the intersection of two singly linked lists begins without knowing/using the difference in length.
+    // For example, the following two linked lists:
+    // A:           a1 ? a2
+    //                     ?
+    //                       c1 ? c2 ? c3
+    //                     ?
+    // B:     b1 ? b2 ? b3
+    public Node<T> findIntersectionNode(Node<T> headA, Node<T> headB) {
+        //boundary check
+        if(headA == null || headB == null) return null;
+
+        Node<T> a = headA;
+        Node<T> b = headB;
+
+        //if a & b have different len, then we will stop the loop after second iteration
+        while( a != b){
+            //for the end of first iteration, we just reset the pointer to the head of another linkedlist
+            a = a == null? headB : a.next;
+            b = b == null? headA : b.next;
+        }
+        return a;
+    }
+
 }
