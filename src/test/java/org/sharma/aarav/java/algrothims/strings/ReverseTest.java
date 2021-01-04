@@ -1,12 +1,12 @@
 package org.sharma.aarav.java.algrothims.strings;
 
+//1. Junit Test to Reverse a String
+//11. Junit Test to reverse words in a sentence.
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Reverse;
-
-//1. Junit Test to Reverse a String
-//11. Junit Test to reverse words in a sentence.
 
 public class ReverseTest {
 
