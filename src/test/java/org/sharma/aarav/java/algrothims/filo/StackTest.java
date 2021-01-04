@@ -27,18 +27,43 @@ public class StackTest {
         stack.push(1);
         Assert.assertNotNull(stack.top);
         Assert.assertEquals(1, stack.top.data);
+        Assert.assertNull(stack.top.next);
         stack.push(2);
         Assert.assertNotNull(stack.top);
         Assert.assertEquals(2, stack.top.data);
+        Assert.assertNotNull(stack.top.next);
+        Assert.assertEquals(1, stack.top.next.data);
+        Assert.assertNull(stack.top.next.next);
         stack.push(3);
         Assert.assertNotNull(stack.top);
         Assert.assertEquals(3, stack.top.data);
+        Assert.assertNotNull(stack.top.next);
+        Assert.assertEquals(2, stack.top.next.data);
+        Assert.assertNotNull(stack.top.next.next);
+        Assert.assertEquals(1, stack.top.next.next.data);
+        Assert.assertNull(stack.top.next.next.next);
         stack.push(4);
         Assert.assertNotNull(stack.top);
         Assert.assertEquals(4, stack.top.data);
+        Assert.assertNotNull(stack.top.next);
+        Assert.assertEquals(3, stack.top.next.data);
+        Assert.assertNotNull(stack.top.next.next);
+        Assert.assertEquals(2, stack.top.next.next.data);
+        Assert.assertNotNull(stack.top.next.next.next);
+        Assert.assertEquals(1, stack.top.next.next.next.data);
+        Assert.assertNull(stack.top.next.next.next.next);
         stack.push(5);
         Assert.assertNotNull(stack.top);
         Assert.assertEquals(5, stack.top.data);
+        Assert.assertNotNull(stack.top.next);
+        Assert.assertEquals(4, stack.top.next.data);
+        Assert.assertNotNull(stack.top.next.next);
+        Assert.assertEquals(3, stack.top.next.next.data);
+        Assert.assertNotNull(stack.top.next.next.next);
+        Assert.assertEquals(2, stack.top.next.next.next.data);
+        Assert.assertNotNull(stack.top.next.next.next.next);
+        Assert.assertEquals(1, stack.top.next.next.next.next.data);
+        Assert.assertNull(stack.top.next.next.next.next.next);
     }
 
     @Test

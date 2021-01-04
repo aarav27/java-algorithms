@@ -1,6 +1,6 @@
-package org.sharma.aarav.java.algorithms.filo;
+package org.sharma.aarav.java.algorithms.fifo;
 
-// Stack Node
+// Queue Node
 
 public class Node<T> {
 

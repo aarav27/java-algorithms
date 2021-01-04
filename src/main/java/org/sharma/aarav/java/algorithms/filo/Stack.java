@@ -14,7 +14,7 @@ public class Stack<T> {
     }
 
     public T pop() {
-        if(top==null) return null;
+        if(top == null) return null;
         T item = top.data;
         top = top.next;
         return item;
