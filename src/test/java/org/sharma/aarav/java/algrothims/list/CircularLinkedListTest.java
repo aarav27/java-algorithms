@@ -1,8 +1,8 @@
 package org.sharma.aarav.java.algrothims.list;
 
-// 6. Junit to test whether a linked list is a circular or has loop :: Given a linked list with loop or without loop.
-// 7. Junit to test get node at the beginning of the loop of a circular linked list :: Given a linked list with loop or without loop.
-// 8. Junit to test whether a linked list is a circular or has loop; and further remove the loop :: Given head node
+// 7. Junit to test whether a linked list is a circular or has loop :: Given a linked list with loop or without loop.
+// 8. Junit to test get node at the beginning of the loop of a circular linked list :: Given a linked list with loop or without loop.
+// 9. Junit to test whether a linked list is a circular or has loop; and further remove the loop :: Given head node
 
 import org.junit.Assert;
 import org.junit.Before;
