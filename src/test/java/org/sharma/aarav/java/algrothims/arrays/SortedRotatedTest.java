@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algrothims.arrays;
 
-//8. Junit to search target integer value in a sorted rotated array and return index.
+//10. Junit to search target integer value in a sorted rotated array and return index.
 
 import org.junit.Assert;
 import org.junit.Before;

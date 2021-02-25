@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algorithms.arrays;
 
-//7. Given an integer array, find a maximum product of three numbers in an array.
+//9. Given an integer array, find a maximum product of three numbers in an array.
 
 public class MaximumProduct {
 

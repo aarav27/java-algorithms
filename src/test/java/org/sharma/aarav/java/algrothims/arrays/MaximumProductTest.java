@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algrothims.arrays;
 
-//7. Junit to test maximum product of three numbers in an array
+//9. Junit to test maximum product of three numbers in an array
 
 import org.junit.Assert;
 import org.junit.Before;
