@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algrothims.arrays;
 
-//9. Junit to generate all sub arrays in an array having continuous index location.
+//11. Junit to generate all sub arrays in an array having continuous index location.
 
 import org.junit.Assert;
 import org.junit.Before;

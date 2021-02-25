@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algrothims.arrays;
 
-//3. Unit to rotate an array of size shifts each of the array's elements
+//3. Junit to rotate an array of size shifts each of the array's elements
 
 import org.junit.Assert;
 import org.junit.Before;

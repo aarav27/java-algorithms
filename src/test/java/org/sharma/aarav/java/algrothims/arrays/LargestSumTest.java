@@ -1,5 +1,9 @@
 package org.sharma.aarav.java.algrothims.arrays;
 
+//4. Junit to Given an array of integers (both positive and negative).
+// Find the continuous sequence with the largest/maximum sum.
+// Return the sum.
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

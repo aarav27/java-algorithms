@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algorithms.arrays;
 
-//8. Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+//10. Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 // (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
 // Given a target value to search. If found in the array return its index, otherwise return -1.
 // Assume no duplicate exists in the array.

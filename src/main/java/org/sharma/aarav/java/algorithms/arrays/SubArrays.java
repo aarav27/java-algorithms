@@ -1,6 +1,6 @@
 package org.sharma.aarav.java.algorithms.arrays;
 
-//9. Generate all sub arrays in an array having continuous index location
+//11. Generate all sub arrays in an array having continuous index location
 
 import java.util.ArrayList;
 import java.util.List;
