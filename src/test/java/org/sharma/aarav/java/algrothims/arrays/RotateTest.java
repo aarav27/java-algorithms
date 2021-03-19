@@ -9,6 +9,9 @@ import org.sharma.aarav.java.algorithms.arrays.Rotate;
 
 import java.util.Arrays;
 
+/**
+ * @author Aarav Sharma
+ */
 public class RotateTest {
 
     private Rotate rotate;

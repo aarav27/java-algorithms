@@ -6,6 +6,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Recursive;
 
+/**
+ * @author Aarav Sharma
+ */
 public class RecursiveTest {
 
     @Test

@@ -8,6 +8,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Reverse;
 
+/**
+ * @author Aarav Sharma
+ */
 public class ReverseTest {
 
     private Reverse reverse;

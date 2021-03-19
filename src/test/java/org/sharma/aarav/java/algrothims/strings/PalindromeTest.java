@@ -10,6 +10,9 @@ import org.sharma.aarav.java.algorithms.strings.Palindrome;
 
 import java.util.List;
 
+/**
+ * @author Aarav Sharma
+ */
 public class PalindromeTest {
 
     private Palindrome palindrome;

@@ -11,6 +11,9 @@ import org.sharma.aarav.java.algorithms.arrays.LargestSum;
 
 import java.util.Arrays;
 
+/**
+ * @author Aarav Sharma
+ */
 public class LargestSumTest {
 
     private LargestSum largestSum;

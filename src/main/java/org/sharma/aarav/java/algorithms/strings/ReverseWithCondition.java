@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.strings;
 
 //3. Reverse a String and Ignore Special Character
 
+/**
+ * @author Aarav Sharma
+ */
 public class ReverseWithCondition {
 
     public String reverse(String str) {

@@ -3,6 +3,9 @@ package org.sharma.aarav.java.algorithms.strings;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Aarav Sharma
+ */
 public class Palindrome {
 
     //4. Find a String is Palindrome or not.

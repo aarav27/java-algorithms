@@ -11,6 +11,9 @@ import org.sharma.aarav.java.algorithms.arrays.Matrix;
 
 import java.util.Arrays;
 
+/**
+ * @author Aarav Sharma
+ */
 public class MatrixTest {
 
     private Matrix matrix;

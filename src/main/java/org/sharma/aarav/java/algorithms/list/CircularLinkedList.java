@@ -1,5 +1,8 @@
 package org.sharma.aarav.java.algorithms.list;
 
+/**
+ * @author Aarav Sharma
+ */
 public class CircularLinkedList<T> {
 
     //8. Implement an algorithm to find whether a linked list is a circular or has loop :: Given head node

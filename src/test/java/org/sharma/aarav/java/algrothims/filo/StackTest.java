@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.filo.Stack;
 
+/**
+ * @author Aarav Sharma
+ */
 public class StackTest {
 
     private Stack stack;

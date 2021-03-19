@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.strings;
 
 //2. Reverse a String Recursively.
 
+/**
+ * @author Aarav Sharma
+ */
 public class Recursive {
 
     public static String reverse(String str) {

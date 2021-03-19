@@ -9,6 +9,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 //8. Given a matrix (Two dimensional array)
 // Return an array containing the elements of row r of arr2D in the same order as they appear in arr2D
 
+/**
+ * @author Aarav Sharma
+ */
 public class Matrix {
 
     //6. Given a matrix (Two dimensional array) in which each row and each column is sorted, write a method to find a value in it.

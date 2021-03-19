@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Unique;
 
+/**
+ * @author Aarav Sharma
+ */
 public class UniqueTest {
 
     private Unique unique;

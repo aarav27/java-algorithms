@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.filo;
 
 // 1. Implement a Stack (having push, pop, peek and isEmpty functions).
 
+/**
+ * @author Aarav Sharma
+ */
 public class Stack<T> {
 
     public Node<T> top;

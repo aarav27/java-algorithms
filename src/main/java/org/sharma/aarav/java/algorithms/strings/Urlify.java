@@ -1,8 +1,10 @@
 package org.sharma.aarav.java.algorithms.strings;
 
-
 //8. Urlify a string. Replace empty space from String with %20. (URLify)
 
+/**
+ * @author Aarav Sharma
+ */
 public class Urlify {
 
     public String urlifyAString(String str) {

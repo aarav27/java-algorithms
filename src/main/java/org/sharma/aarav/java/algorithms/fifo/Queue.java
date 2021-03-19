@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.fifo;
 
 // 1. Implement a Queue (having enqueue, dequeue, peek and isEmpty functions).
 
+/**
+ * @author Aarav Sharma
+ */
 public class Queue<T> {
 
     public Node<T> first;

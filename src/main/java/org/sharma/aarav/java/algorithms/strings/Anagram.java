@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author Aarav Sharma
+ */
 public class Anagram {
 
     //5. Find if two strings are anagrams or not.
