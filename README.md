@@ -14,7 +14,7 @@ Here is list data structures and algorithms: String, Array, Linked List, Stack, 
     
 ○ Clone the github Repository locally and checkout develop branch
 
-    git clone https://github.com/aarav27/spring-boot-reference
+    git clone https://github.com/aarav27/java-algorithms
     git branch -a
     git checkout develop
     git pull
