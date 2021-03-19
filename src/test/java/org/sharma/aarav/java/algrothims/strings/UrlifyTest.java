@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.strings.Urlify;
 
+/**
+ * @author Aarav Sharma
+ */
 public class UrlifyTest {
 
     private Urlify urlify;

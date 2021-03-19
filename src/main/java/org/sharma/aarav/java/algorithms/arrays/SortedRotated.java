@@ -5,6 +5,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 // Given a target value to search. If found in the array return its index, otherwise return -1.
 // Assume no duplicate exists in the array.
 
+/**
+ * @author Aarav Sharma
+ */
 public class SortedRotated {
 
     public Integer search(int[] nums, int target) {

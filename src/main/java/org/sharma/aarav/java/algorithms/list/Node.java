@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.list;
 
 // Linked list Node
 
+/**
+ * @author Aarav Sharma
+ */
 public class Node<T> {
 
         public Node<T> next;

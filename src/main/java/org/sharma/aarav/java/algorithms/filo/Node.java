@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.filo;
 
 // Stack Node
 
+/**
+ * @author Aarav Sharma
+ */
 public class Node<T> {
 
     public Node<T> next;

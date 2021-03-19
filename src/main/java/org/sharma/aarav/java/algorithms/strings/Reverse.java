@@ -1,5 +1,8 @@
 package org.sharma.aarav.java.algorithms.strings;
 
+/**
+ * @author Aarav Sharma
+ */
 public class Reverse {
 
     //1. Reverse a String

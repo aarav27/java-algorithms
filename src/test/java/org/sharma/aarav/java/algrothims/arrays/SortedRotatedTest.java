@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.arrays.SortedRotated;
 
+/**
+ * @author Aarav Sharma
+ */
 public class SortedRotatedTest {
 
     private SortedRotated sortedRotated;

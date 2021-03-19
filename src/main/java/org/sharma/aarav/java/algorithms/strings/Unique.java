@@ -5,6 +5,9 @@ package org.sharma.aarav.java.algorithms.strings;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Aarav Sharma
+ */
 public class Unique {
 
     public boolean isAllUnique(String str) {

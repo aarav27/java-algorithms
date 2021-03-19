@@ -3,6 +3,9 @@ package org.sharma.aarav.java.algorithms.list;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Aarav Sharma
+ */
 public class LinkedList<T> {
 
     // 1. Append Node to Tail :: Given head node and data to append as input

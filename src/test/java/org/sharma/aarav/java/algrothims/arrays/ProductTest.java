@@ -9,6 +9,9 @@ import org.sharma.aarav.java.algorithms.arrays.Product;
 
 import java.util.Arrays;
 
+/**
+ * @author Aarav Sharma
+ */
 public class ProductTest {
 
     private Product product;

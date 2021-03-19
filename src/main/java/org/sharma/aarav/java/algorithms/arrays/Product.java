@@ -6,9 +6,13 @@ package org.sharma.aarav.java.algorithms.arrays;
 //   arr[] = {10, 3, 5, 6, 2}
 //   prod[] = {180, 600, 360, 300, 900}
 
+/**
+ * @author Aarav Sharma
+ */
 public class Product {
 
     public int[] getProductOfArray(int[] arr) {
+
         if(arr==null) {
             return arr;
         }

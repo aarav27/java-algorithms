@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.fifo.Queue;
 
+/**
+ * @author Aarav Sharma
+ */
 public class QueueTest {
 
     private Queue queue;

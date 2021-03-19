@@ -4,6 +4,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 // If array is already sorted then inversion count is 0.
 // If array is sorted in reverse order that inversion count is the maximum.
 
+/**
+ * @author Aarav Sharma
+ */
 public class Inversion {
 
     public int getInversion(int[] array) {

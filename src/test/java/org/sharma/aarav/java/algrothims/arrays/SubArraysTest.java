@@ -10,6 +10,9 @@ import org.sharma.aarav.java.algorithms.arrays.SubArrays;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author Aarav Sharma
+ */
 public class SubArraysTest {
     private SubArrays subArrays;
 

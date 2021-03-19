@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 
 //9. Given an integer array, find a maximum product of three numbers in an array.
 
+/**
+ * @author Aarav Sharma
+ */
 public class MaximumProduct {
 
     public Integer getMaxOfTriplet(int[] nums) {

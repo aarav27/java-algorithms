@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.arrays.Inversion;
 
+/**
+ * @author Aarav Sharma
+ */
 public class InversionTest {
 
     private Inversion inversion;

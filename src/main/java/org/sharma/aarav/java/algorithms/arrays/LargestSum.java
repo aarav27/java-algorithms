@@ -4,6 +4,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 // Find the continuous sequence with the largest/maximum sum.
 // Return the sum.
 
+/**
+ * @author Aarav Sharma
+ */
 public class LargestSum {
 
     public int getMaximumContinousSequenceSum(int[] arr) {

@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.sharma.aarav.java.algorithms.arrays.MaximumProduct;
 
+/**
+ * @author Aarav Sharma
+ */
 public class MaximumProductTest {
 
     private MaximumProduct maximumProduct;

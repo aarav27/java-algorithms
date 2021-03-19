@@ -5,6 +5,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Aarav Sharma
+ */
 public class PairSum {
 
     // 5.1 Sorting of Array Not allowed. Find original indexes only.

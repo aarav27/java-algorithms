@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 
 //3. Rotate an array of size shifts each of the array's elements
 
+/**
+ * @author Aarav Sharma
+ */
 public class Rotate {
 
     //3. A left rotation operation on an array of size shifts each of the array's elements unit to the left.

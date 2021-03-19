@@ -5,6 +5,9 @@ package org.sharma.aarav.java.algorithms.arrays;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Aarav Sharma
+ */
 public class SubArrays {
 
     public List generate(int[] arr) {

@@ -10,6 +10,9 @@ import org.sharma.aarav.java.algorithms.strings.Anagram;
 
 import java.util.List;
 
+/**
+ * @author Aarav Sharma
+ */
 public class AnagramTest {
 
     private Anagram anagram;

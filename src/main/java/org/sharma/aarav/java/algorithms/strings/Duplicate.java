@@ -2,6 +2,9 @@ package org.sharma.aarav.java.algorithms.strings;
 
 //7. Remove the duplicate characters in a string
 
+/**
+ * @author Aarav Sharma
+ */
 public class Duplicate {
 
     // Remove the duplicate characters in a string without using an additional buffer.
