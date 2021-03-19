@@ -1,6 +1,6 @@
-### Data Structures and Algorithms in Java
+## Data Structures and Algorithms in Java
 
-#### About
+### About
 
 This is a repository of data structures and algorithms written in Java.
 
