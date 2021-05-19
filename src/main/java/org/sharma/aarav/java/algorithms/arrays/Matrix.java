@@ -9,6 +9,15 @@ package org.sharma.aarav.java.algorithms.arrays;
 //8. Given a matrix (Two dimensional array)
 // Return an array containing the elements of row r of arr2D in the same order as they appear in arr2D
 
+//9. Given a matrix (Two dimensional array)
+// Reverse all the rows of the given two dimensional array
+
+//10. Given a matrix (Two dimensional array)
+// Reverse all the columns of the given two dimensional array
+
+//11. Given a matrix (Two dimensional array)
+// Reverse the matrix (two dimensional array)
+
 /**
  * @author Aarav Sharma
  */
@@ -48,6 +57,44 @@ public class Matrix {
             rowArray[col] = arr2D[r][col];
         }
         return rowArray;
+    }
+
+    //9. Given a matrix (Two dimensional array)
+    // Reverse all the rows of the given two dimensional array
+    public void reverseAllRows(int[][] arr2D) {
+        if (arr2D == null || arr2D[0].length < 2) return ;
+        int rowLength = arr2D.length;
+        int colLength = arr2D[0].length;
+        for (int row = 0; row < rowLength; row++) {
+            int[] arrayRow = arr2D[row];
+            for(int i = 0, j = colLength-1; i < colLength/2; i++, j--) {
+                int temp = arrayRow[i];
+                arrayRow[i] = arrayRow[j];
+                arrayRow[j] = temp;
+            }
+        }
+    }
+
+    //10. Given a matrix (Two dimensional array)
+    // Reverse all the columns of the given two dimensional array
+    public void reverseAllColumns(int[][] arr2D) {
+        if (arr2D == null || arr2D.length < 2) return ;
+        int colLength = arr2D[0].length;
+        int rowLength = arr2D.length;
+        for (int col = 0; col < colLength; col++) {
+            for(int i = 0, j = rowLength-1; i < rowLength/2; i++, j--) {
+                int temp = arr2D[i][col];
+                arr2D[i][col] = arr2D[j][col];
+                arr2D[j][col] = temp;
+            }
+        }
+    }
+
+    //11. Given a matrix (Two dimensional array)
+    // Reverse the matrix (two dimensional array)
+    public void reverseMatrix(int[][] arr2D) {
+        reverseAllRows(arr2D);
+        reverseAllColumns(arr2D);
     }
 
 }
