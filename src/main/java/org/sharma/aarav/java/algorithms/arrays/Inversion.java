@@ -10,13 +10,19 @@ package org.sharma.aarav.java.algorithms.arrays;
 public class Inversion {
 
     public int getInversion(int[] array) {
-        if(array==null || array.length <1) return 0;
+        if(array==null || array.length <1){ 
+            return 0;
+        }
+        
         int length = array.length;
         int inversion = 0;
-        for(int i=0; i < length -1; i++)
-            for(int j= i+1; j < length; j++)
-                if(array[i] > array[j])
+        for(int i=0; i < length -1; i++){
+            for(int j= i+1; j < length; j++){
+                if(array[i] > array[j]){
                     inversion ++;
+                }
+            }
+        }
         return inversion;
     }
 
